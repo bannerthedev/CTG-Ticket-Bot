@@ -7,9 +7,9 @@ import dotenv
 from dotenv import load_dotenv
 load_dotenv()
 
-GUILD_ID = 1487301382909460502  # Guild ID where command registers
+GUILD_ID = 1469203259842494497  # Guild ID where command registers
 # Add as many staff role IDs as you want here:
-STAFF_ROLE_IDS = [1511901484374032454, 1490430113639170149, 1511901806702231633, 1511901298469896284, 1511901160175435927]  # example: [role_id1, role_id2, ...]
+STAFF_ROLE_IDS = [1470383666722246677, 1470383135874089103, 1470381547507941406, 1480302601617543280, 1470383468017090692, 1470174604545888420]  # example: [role_id1, role_id2, ...]
 
 intents = discord.Intents.default()
 intents.guilds = True
@@ -22,7 +22,7 @@ ticket_counter = 1
 
 # Build the embed and buttons for the menu
 def menu_embed():
-    e = discord.Embed(title="CTG Ticket Bot.", color=discord.Color.blurple())
+    e = discord.Embed(title="PDA Ticket Bot.", color=discord.Color.blurple())
     e.description = (
         "Open the ticket type that fits your issue best. Please read the Terms of Service before opening any ticket.\n"
         " before opening any ticket you need to know what you want. \n"
